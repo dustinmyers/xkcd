@@ -21,7 +21,7 @@ export default function ComicForm(props) {
         Get random comic
       </button>
       <form>
-        <label htmlFor="comic-number">Get comic by number:</label>
+        <label htmlFor="comic-number">Get by number:</label>
         <input
           id="comic-number"
           value={props.comicNum}
