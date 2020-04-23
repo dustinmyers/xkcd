@@ -1,0 +1,15 @@
+main {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title {
+  font-family: "Comic-Kings";
+  text-align: center;
+
+  span {
+    color: #5f8cff;
+  }
+}

@@ -1,0 +1,44 @@
+.comic-form {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+
+  form {
+    display: flex;
+    align-items: center;
+  }
+
+  input,
+  label {
+    font-size: 1.5rem;
+  }
+
+  input {
+    width: 102px;
+    // padding: 3px 12px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 0 8px;
+    border: none;
+    border-bottom: 1px solid black;
+  }
+
+  button {
+    font-size: 1.2rem;
+    color: #1b2a4f;
+    border: none;
+    cursor: pointer;
+
+    &.random-btn {
+      background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+      padding: 8px 24px;
+      border-radius: 4px;
+    }
+
+    &.arrow-btn {
+      background-image: linear-gradient(120deg, #84fab0 0%, #8fedf4 100%);
+      padding: 7px 12px;
+      margin: 16px 0;
+    }
+  }
+}
